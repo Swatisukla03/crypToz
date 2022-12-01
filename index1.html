@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CrypToz - Buy & Sell Ur Crypto</title>
+    <title>CrypToz - Buy & Sell With Friends</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -42,9 +42,7 @@
 
   <body onload="myFunction()">
     <!-- pre-loader -->
-    <div id="preloader">
-      <!-- <div class="tenor-gif-embed" data-postid="17043796" data-share-method="host" data-aspect-ratio="1" data-width="100%"  style="height:30px;"><a href="https://tenor.com/view/bitcoin-money-fiat-crypto-hodl-gif-17043796">Bitcoin Money GIF</a>from <a href="https://tenor.com/search/bitcoin-gifs">Bitcoin GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script> -->
-    </div>
+    
 
     <!-- 
     - #HEADER
@@ -72,9 +70,17 @@
               <a href="#" class="navbar-link" data-nav-link>Buy Crypto</a>
             </li>
 
-            <li class="navbar-item">
-              <a href="#" class="navbar-link" data-nav-link>Markets</a>
-            </li>
+            <div class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Markets<i class="fas fa-caret-right"></i></a>
+              <div class="dropdown-menu-1">
+                <ul>
+                  <li><a href="#">Team-1</a></li>
+                  <li><a href="#">Team-2</a></li>
+                  <li><a href="#">Team-3</a></li>
+                  <li><a href="#">Team-4</a></li>
+                </ul>
+              </div>
+            </div>
 
             <li class="navbar-item">
               <a href="#" class="navbar-link" data-nav-link>Sell Crypto</a>
@@ -104,8 +110,9 @@
           <button class="btn1">Login</button>
           
         </a>
-
+               <a href="Register.html"> 
         <button class="btn1">Register</button>
+      </a>
         
 
         <a href="#" class="btn btn-outline" style="margin-right: 1px">Wallet</a>
@@ -116,10 +123,26 @@
 
     <main>
       <article>
-        <!-- 
-        - #HERO
-      -->
 
+
+
+        <!-- breaking news banner -->
+
+
+        <div class="container">
+          <div class="ticker">
+            <div class="title"><h5>Breaking News</h5></div>
+            <div class="news">
+              <marquee>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              </marquee>
+            </div>
+          </div>
+        </div>
+        
+      
         <section class="section hero" aria-label="hero" data-section>
           <div class="container">
             <div class="hero-content">
@@ -208,7 +231,7 @@
                         alt="bitcoin logo"
                       />
 
-                      <a href="#" class="card-title">
+                      <a href="https://www.coindesk.com/price/bitcoin/" class="card-title">
                         Bitcoin <span class="span">BTC/USD</span>
                       </a>
                     </div>
@@ -237,8 +260,8 @@
                         alt="ethereum logo"
                       />
 
-                      <a href="#" class="card-title">
-                        Ethereum <span class="span">ETH/USD</span>
+                      <a href="https://www.coindesk.com/price/ethereum/" class="card-title">
+                        Ethereum <span class="span">ETH/USD</span> -->
                       </a>
                     </div>
 
@@ -264,7 +287,7 @@
                         alt="tether logo"
                       />
 
-                      <a href="#" class="card-title">
+                      <a href="https://www.coindesk.com/price/tether/" class="card-title">
                         Tether <span class="span">USDT/USD</span>
                       </a>
                     </div>
@@ -291,7 +314,7 @@
                         alt="bnb logo"
                       />
 
-                      <a href="#" class="card-title">
+                      <a href="https://www.coindesk.com/price/binance-coin/" class="card-title">
                         BNB <span class="span">BNB/USD</span>
                       </a>
                     </div>
@@ -321,7 +344,7 @@
             <div class="title-wrapper">
               <h2 class="h2 section-title">Market Update</h2>
 
-              <a href="#" class="btn-link">See All Coins</a>
+              <a href="https://crypto-hunter.netlify.app/" class="btn-link">See All Coins</a>
             </div>
 
             <div class="market-tab">
@@ -410,7 +433,7 @@
                         />
 
                         <h3>
-                          <a href="#" class="coin-name"
+                          <a href="https://www.coindesk.com/price/bitcoin/" class="coin-name"
                             >Bitcoin <span class="span">BTC</span></a
                           >
                         </h3>
@@ -434,7 +457,9 @@
                     </td>
 
                     <td class="table-data">
+                      <a href="https://www.coindesk.com/embedded-chart/jBDfnKMD9zJDc"> 
                       <button class="btn btn-outline">Trade</button>
+                    </a>
                     </td>
                   </tr>
 
@@ -471,7 +496,7 @@
                         />
 
                         <h3>
-                          <a href="#" class="coin-name"
+                          <a href="https://www.coindesk.com/price/ethereum/" class="coin-name"
                             >Ethereum <span class="span">ETH</span></a
                           >
                         </h3>
@@ -495,7 +520,9 @@
                     </td>
 
                     <td class="table-data">
+                      <a href="https://www.coindesk.com/indices/cmi/"> 
                       <button class="btn btn-outline">Trade</button>
+                    </a>
                     </td>
                   </tr>
 
@@ -532,7 +559,7 @@
                         />
 
                         <h3>
-                          <a href="#" class="coin-name"
+                          <a href="https://www.coindesk.com/price/tether/" class="coin-name"
                             >Tether <span class="span">USDT/USD</span></a
                           >
                         </h3>
@@ -593,7 +620,7 @@
                         />
 
                         <h3>
-                          <a href="#" class="coin-name"
+                          <a href="https://www.coindesk.com/price/binance-coin/" class="coin-name"
                             >BNB <span class="span">BNB/USD</span></a
                           >
                         </h3>
@@ -617,7 +644,9 @@
                     </td>
 
                     <td class="table-data">
+                      <a href="https://www.coindesk.com/price/binance-coin/"> 
                       <button class="btn btn-outline">Trade</button>
+                    </a>
                     </td>
                   </tr>
 
@@ -654,7 +683,7 @@
                         />
 
                         <h3>
-                          <a href="#" class="coin-name"
+                          <a href=" " class="coin-name"
                             >Solana <span class="span">SOL</span></a
                           >
                         </h3>
@@ -717,6 +746,513 @@
                         <h3>
                           <a href="#" class="coin-name"
                             >XRP <span class="span">XRP</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$56,623.54</td>
+
+                    <td class="table-data last-update red">-2.22%</td>
+
+                    <td class="table-data market-cap">$880,423,640,582</td>
+
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://cryptologos.cc/logos/gemini-dollar-gusd-logo.png"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >Gemini Dollar <span class="span">Gemini Dollar</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$56,623.54</td>
+
+                    <td class="table-data last-update red">-2.22%</td>
+
+                    <td class="table-data market-cap">$880,423,640,582</td>
+
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://neo3.azureedge.net/images/presskit/img2.png"
+                          width="40"
+                          height="50"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >Neo <span class="span">Neo</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$63,623.54</td>
+
+                    <td class="table-data last-update red">-3.22%</td>
+
+                    <td class="table-data market-cap">$580,423,640,582</td>
+
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://cdn.worldvectorlogo.com/logos/dash-5.svg"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >Dash <span class="span">Dash</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$86,623.54</td>
+
+                    <td class="table-data last-update green">+2.22%</td>
+
+                    <td class="table-data market-cap">$680,423,640,582</td>
+
+                    <!-- <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td> -->
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-1.svg"
+                        width="100"
+                        height="40"
+                        alt="profit chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="./assets/images/coin-6.svg"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >XRP <span class="span">Neo</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$56,623.54</td>
+
+                    <td class="table-data last-update red">-2.22%</td>
+
+                    <td class="table-data market-cap">$880,423,640,582</td>
+
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://cryptologos.cc/logos/thorchain-rune-logo.png"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >THORChain <span class="span">THORChain</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$56,623.54</td>
+
+                    <td class="table-data last-update green">+3.22%</td>
+
+                    <td class="table-data market-cap">$880,423,640,582</td>
+
+                    <!-- <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td> -->
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-1.svg"
+                        width="100"
+                        height="40"
+                        alt="profit chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://www.shutterstock.com/image-vector/mina-decentralized-blockchain-internetofthings-payments-260nw-2055047498.jpg"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >Mina <span class="span">Mina</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$56,623.54</td>
+
+                    <td class="table-data last-update green ">+4.22%</td>
+
+                    <td class="table-data market-cap">$980,423,640,582</td>
+
+                    <!-- <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td> -->
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-1.svg"
+                        width="100"
+                        height="40"
+                        alt="profit chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://storage.googleapis.com/graph-web/blog/GraphLogoblack.png"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >The Graph <span class="span">The Graph</span></a
+                          >
+                        </h3>
+                      </div>
+                    </td>
+
+                    <td class="table-data last-price">$56,623.54</td>
+
+                    <td class="table-data last-update red">-2.22%</td>
+
+                    <td class="table-data market-cap">$880,423,640,582</td>
+
+                    <td class="table-data">
+                      <img
+                        src="./assets/images/chart-2.svg"
+                        width="100"
+                        height="40"
+                        alt="loss chart"
+                        class="chart"
+                      />
+                    </td>
+
+                    <td class="table-data">
+                      <button class="btn btn-outline">Trade</button>
+                    </td>
+                  </tr>
+                  <tr class="table-row">
+                    <td class="table-data">
+                      <button
+                        class="add-to-fav"
+                        aria-label="Add to favourite"
+                        data-add-to-fav
+                      >
+                        <ion-icon
+                          name="star-outline"
+                          aria-hidden="true"
+                          class="icon-outline"
+                        ></ion-icon>
+                        <ion-icon
+                          name="star"
+                          aria-hidden="true"
+                          class="icon-fill"
+                        ></ion-icon>
+                      </button>
+                    </td>
+
+                    <th class="table-data rank" scope="row">6</th>
+
+                    <td class="table-data">
+                      <div class="wrapper">
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyqwH1prA7Fwyn0_kuACW9tIYFLh_Sb6U9ZbNNv9OWWg&s"
+                          width="20"
+                          height="20"
+                          alt="XRP logo"
+                          class="img"
+                        />
+
+                        <h3>
+                          <a href="#" class="coin-name"
+                            >GMX<span class="span">GMX</span></a
                           >
                         </h3>
                       </div>
@@ -1248,6 +1784,61 @@
               
               </div>
             </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="assets/images/new/choong-deng-xiang-EbbqeyHpbto-unsplash.jpg" alt="" />
+                </div>
+              </div>
+
+
+              <div class="card-content">
+                <h2 class="name">BITCOIN</h2>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam consequatur accusantium explicabo, sint in dignissimos numquam debitis quam commodi sapiente dolores qui dolorum possimus repellat alias, eos vitae officia cum?</p>
+                <button class="button">View More</button>
+              
+              
+              </div>
+            </div>
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="assets/images/new/choong-deng-xiang-EbbqeyHpbto-unsplash.jpg" alt="" />
+                </div>
+              </div>
+
+
+              <div class="card-content">
+                <h2 class="name">BITCOIN</h2>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam consequatur accusantium explicabo, sint in dignissimos numquam debitis quam commodi sapiente dolores qui dolorum possimus repellat alias, eos vitae officia cum?</p>
+                <button class="button">View More</button>
+              
+              
+              </div>
+            </div>
+
+
+            <div class="card swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="assets/images/new/choong-deng-xiang-EbbqeyHpbto-unsplash.jpg" alt="" />
+                </div>
+              </div>
+
+
+              <div class="card-content">
+                <h2 class="name">BITCOIN</h2>
+                <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam consequatur accusantium explicabo, sint in dignissimos numquam debitis quam commodi sapiente dolores qui dolorum possimus repellat alias, eos vitae officia cum?</p>
+                <button class="button">View More</button>
+              
+              
+              </div>
+            </div>
             <div class="card swiper-slide">
               <div class="image-content">
                 <span class="overlay"></span>
@@ -1342,16 +1933,8 @@
 
     </section>
 
-    <section>
-      <!-- <h1>Recommended Video </h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/iFIqffaaSH8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dFDWJXpFobU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/e0frvHLHMGI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-    </section>
-
-    <!-- 
-    - #FOOTER
-  -->
+ 
+    
 
     <footer class="footer">
       <div class="footer-top" data-section>
@@ -1552,13 +2135,244 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-
+<!-- 
     <script>
-      var preloader = document.getElementById("preloader");
-      function myFunction() {
-        preloader.style.display = "none";
-      }
+      setTimeout(function(){
+        $('.payload.gif').fadeToggle();
+      },1500)
+    </script> -->
+
+
+    <template>
+      <div id="partners" class=" mb-12 lg:mb-20">
+        <h1 class="font-bold text-3xl text-brand-accent text-center lg:text-4xl">
+          Our Partners
+        </h1>
+        <div
+          class="border border-brand-primary border-l-0 border-r-0 container lg:p-20 mt-6 overflow-hidden p-12 relative"
+        >
+          <div class="flex animate absolute left-0">
+            <div class="flex w-50 justify-around items-center logo">
+              <a href="#"><img src="/partners/unilever.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Three Crowns.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Andela.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Bristow logo.png" alt="" /></a>
+              <a href=""><img src="/partners/Aace foods.png" alt="" /></a>
+              <a href=""><img src="/partners/Bella-Naija.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Citi.png" alt="" /></a>
+              <a href=""><img src="/partners/Bristow uplift.png" alt="" /></a>
+              <a href=""><img src="/partners/Aquadana.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Nairabox.png" alt="" /></a>
+    
+              <a href="#"><img src="/partners/Next Gen Farm.png" alt="" /></a>
+              <a href=""><img src="/partners/Oppo Logo.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Rensource logo2.png" alt="" /></a>
+              <a href=""><img src="/partners/Canon Education.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Aace foods.png" alt="" /></a>
+              <a href=""><img src="/partners/Empawa.png" alt="" /></a>
+              <a href=""><img src="/partners/Dano Logo2.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Pears.png" alt="" /></a>
+              <a href=""><img src="/partners/Peak.png" alt="" /></a>
+              <a href=""><img src="/partners/Rotary club Gbagada.png" alt="" /></a>
+    
+              <a href="#"><img src="/partners/Kellogg_s logo.png" alt="" /></a>
+              <a href=""><img src="/partners/GFN-Full-Color-Logo.png" alt="" /></a>
+              <a href=""><img src="/partners/nirankari_logo.png" alt="" /></a>
+              <a href=""><img src="/partners/Sunlight.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Trojan.png" alt="" /></a>
+              <a href=""><img src="/partners/Vaseline.jpg" alt="" /></a>
+              <a href=""><img src="/partners/LEAP-Africa.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Knorr.png" alt="" /></a>
+              <a href=""><img src="/partners/krispy-kreme-logo.png" alt="" /></a>
+              <a href=""><img src="/partners/Oando Foundation.jpg" alt="" /></a>
+            </div>
+            <div class="flex w-50 justify-around items-center logo">
+              <a href="#"><img src="/partners/unilever.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Three Crowns.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Andela.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Bristow logo.png" alt="" /></a>
+              <a href=""><img src="/partners/Aace foods.png" alt="" /></a>
+              <a href=""><img src="/partners/Bella-Naija.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Citi.png" alt="" /></a>
+              <a href=""><img src="/partners/Bristow uplift.png" alt="" /></a>
+              <a href=""><img src="/partners/Aquadana.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Nairabox.png" alt="" /></a>
+    
+              <a href="#"><img src="/partners/Next Gen Farm.png" alt="" /></a>
+              <a href=""><img src="/partners/Oppo Logo.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Rensource logo2.png" alt="" /></a>
+              <a href=""><img src="/partners/Canon Education.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Aace foods.png" alt="" /></a>
+              <a href=""><img src="/partners/Empawa.png" alt="" /></a>
+              <a href=""><img src="/partners/Dano Logo2.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Pears.png" alt="" /></a>
+              <a href=""><img src="/partners/Peak.png" alt="" /></a>
+              <a href=""><img src="/partners/Rotary club Gbagada.png" alt="" /></a>
+    
+              <a href="#"><img src="/partners/Kellogg_s logo.png" alt="" /></a>
+              <a href=""><img src="/partners/GFN-Full-Color-Logo.png" alt="" /></a>
+              <a href=""><img src="/partners/nirankari_logo.png" alt="" /></a>
+              <a href=""><img src="/partners/Sunlight.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Trojan.png" alt="" /></a>
+              <a href=""><img src="/partners/Vaseline.jpg" alt="" /></a>
+              <a href=""><img src="/partners/LEAP-Africa.jpg" alt="" /></a>
+              <a href=""><img src="/partners/Knorr.png" alt="" /></a>
+              <a href=""><img src="/partners/krispy-kreme-logo.png" alt="" /></a>
+              <a href=""><img src="/partners/Oando Foundation.jpg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="all-partners container mt-12">
+          <div v-if="showAll" class="grid grid-cols-3 lg:grid-cols-5 mb-8">
+            <div
+              v-for="partner in this.partners"
+              :key="partner"
+              class="text-sm bg-brand-acccentLight border-brand-primary border p-1  text truncate"
+              :title="partner"
+            >
+              {{ partner }}
+            </div>
+          </div>
+          <div
+            class="cursor-pointer font-bold text-brand-primary text-center text-lg"
+            @click="showPartners"
+          >
+            <h3>{{ view }}</h3>
+          </div>
+        </div>
+      </div>
+    </template>
+    
+    <script>
+    export default {
+      data() {
+        return {
+          partners: [
+            'Syracruse Africa/ OPPO',
+            'Global Food Banking Network(GFN)',
+            'Rensource',
+            'Arami Essentials',
+            'Arla Foods',
+            'Next Generation',
+            'Nifemi Brown Foundation',
+            'Saturday Night Fever (SNF)',
+            'Owambe UK',
+            'Aristocrat',
+            'Peak/Three Crowns milk',
+            'Haanofoods',
+            'William Grants and Sons LTD',
+            'Andela',
+            'Aquadana',
+            'The fishshop Nigeria',
+            'Mobile Coldroom NG',
+            'Unilever Nigeria Plc',
+            'Somgeo Foods Ltd',
+            'AACE foods',
+            'Sympli Natural Nigeria',
+            'Canon Education',
+            'Zippy Logistics',
+            'Bristow Helicopters',
+            'The Rotary Club of Gbagada',
+            'Kuda Bank',
+            'Leap Africa',
+            'Sanitary Aid ng',
+            'Olivia Anakwe Foundation',
+            'Karflexfisheries ltd',
+            'Oando Foundation',
+            'Itel Mobile Nigeria',
+            'krispy crème',
+            'Blue Mahogany',
+            'Kindred Africa Community Development Foundation',
+            'Bella Naija',
+            'Krasks TV',
+            'Empawa Africa',
+            'Jewel Jemila Clothing Brand',
+            'Learn2feed',
+            'Trojan',
+            'Nairabox',
+            'The Wheelers Motorcycle Club',
+            'RMB',
+            'Nutzy Peanut Butter',
+            'OmniLife',
+            'General Electric',
+            'Pears Unilever',
+            'Mr Chef',
+            'Malta Guinness',
+            'Lady Care',
+            'H&E Gourmet café and dining',
+            'Trojan Estate Limited',
+            'Imaginarium Creative Global Limited',
+            'Estee Lauder Companies (PTY) LTD',
+            'oloni',
+            'AA GreenBox',
+            'UNIFE Law Class ’87',
+            'Canadian Association of Nigerian Lawyers',
+            'Queensbury Farm Eggs',
+          ],
+          view: 'View All',
+          showAll: false,
+        }
+      },
+      methods: {
+        showPartners() {
+          if (!this.showAll) {
+            this.showAll = true
+            this.view = 'Show Less'
+          } else {
+            this.showAll = false
+            this.view = 'View All'
+          }
+        },
+      },
+    }
     </script>
+    
+    <style>
+    @keyframes marquee {
+      0% {
+        left: 0;
+      }
+      100% {
+        left: -900%;
+      }
+    }
+    .animate {
+      width: 1800%;
+      animation: marquee 20s linear infinite;
+      top: 50%;
+      transform: translate(0, -50%);
+    }
+    .logo a {
+      width: 80px;
+      -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    @screen lg {
+      @keyframes marquee {
+        0% {
+          left: 0;
+        }
+        100% {
+          left: -375%;
+        }
+      }
+      .animate {
+        width: 750%;
+        animation: marquee 20s linear infinite;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+      .logo a {
+        width: 100px;
+        -webkit-transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+      }
+    }
+    .animate:hover {
+      animation-play-state: paused;
+    }
+    .logo a:hover {
+      transform: scale(1.3);
+    }
+    </style>
 
     <script  src="assets/js/swiper-bundle.min.js">
 
